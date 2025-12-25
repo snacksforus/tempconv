@@ -1,2 +1,3 @@
 # tempconv
-Packaging exercise from the Go Book.
+
+Packaging exercise from "The Go Programming Language" book.
