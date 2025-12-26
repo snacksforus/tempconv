@@ -13,10 +13,12 @@ const (
 	BoilingC      Celsius = 0
 )
 
+// String returns the Celsius temperature formatted as a string with the °C suffix.
 func (c Celsius) String() string {
 	return fmt.Sprintf("%g°C", c)
 }
 
+// String returns the Fahrenheit temperature formatted as a string with the °F suffix.
 func (f Fahrenheit) String() string {
 	return fmt.Sprintf("%g° F", f)
 }
